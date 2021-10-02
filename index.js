@@ -9,7 +9,7 @@ window.addEventListener("resize", function(){
 })
 setInterval(function(){
     slides();
-}, 5000)
+}, 12000)
 function slides(){
     slider.style.transform = "translate("+(-width*contador)+"px)";
     slider.style.transition = "transform .8s"
